@@ -6,6 +6,7 @@ class OrderBook:
          self.ob_2_ts = ob_2_ts
          self.current_bid = None
          self.current_ask = None
+        
 
 
     def handle_order_from_gateway(self, order=None):
@@ -109,3 +110,5 @@ class OrderBook:
                 "offer_quantity": float(offer['quantity']) if offer else -1
             }
         return book_event
+    def crbosfonk(self, offer):
+        
