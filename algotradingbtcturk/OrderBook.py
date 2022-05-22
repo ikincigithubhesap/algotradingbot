@@ -110,5 +110,5 @@ class OrderBook:
                 "offer_quantity": float(offer['quantity']) if offer else -1
             }
         return book_event
-    def crbosfonk(self, offer):
+    def crbosfo2k(self, offer):
         
